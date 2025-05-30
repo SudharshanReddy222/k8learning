@@ -21,6 +21,7 @@ metadata:
     ## SSL Settings
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS":443}, {"HTTP":80}]'
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:819590942191:certificate/f380e16e-63a5-4fe8-86de-21a493404982
+
     #alb.ingress.kubernetes.io/ssl-policy: ELBSecurityPolicy-TLS-1-1-2017-01 #Optional    
 spec:
   ingressClassName: my-aws-ingress-class   # Ingress Class                  
